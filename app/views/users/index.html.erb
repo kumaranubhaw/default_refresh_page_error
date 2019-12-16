@@ -1,0 +1,7 @@
+<div>
+  <%= form_tag :action => 'get_detail' do %>
+    <%= hidden_field_tag "parameters[email]", "anubhaw@gmail.com" %>
+    <%= hidden_field_tag "name", "anubhaw" %>
+    <%= submit_tag "Get User Details" %>
+  <% end -%>
+</div>
