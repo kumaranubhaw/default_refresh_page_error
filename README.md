@@ -27,13 +27,13 @@ Things you may want to cover:
 * NOTE:
 
   Setup:
-  1. Create database refreshpage.
+  1. Create database refresh_page.
   2. Change host in database to connect to your database.
   3. uncomment User.create_record in users_controller.rb to insert record in the table to demonstrate.
 
   Reproducing step:
   
-  -> Run the server and triger the url
-  -> On the page display click on the button "Get User Details"
-  -> Then the user details will be displayed in table.
-  -> On this page if refreshing the page params do not contain data in the request to the controller.
+  1. Run the server and triger the url
+  2. On the page display click on the button "Get User Details"
+  3. Then the user details will be displayed in table.
+  4. On this page if refreshing the page params do not contain data in the request to the controller.
