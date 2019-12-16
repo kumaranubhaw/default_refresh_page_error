@@ -33,7 +33,7 @@ Things you may want to cover:
 
   Reproducing step:
   
-  1. Run the server and triger the url
+  1. Run the server and trigger the url
   2. On the page display click on the button "Get User Details"
   3. Then the user details will be displayed in table.
   4. On this page if refreshing the page params do not contain data in the request to the controller.
