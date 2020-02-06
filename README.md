@@ -48,3 +48,5 @@ Things you may want to cover:
    
     …
    <% end %>
+   
+   This will put the form parameters in the browser's address bar, so when refreshing, the parameters are sent as expected. I hope that helps.
