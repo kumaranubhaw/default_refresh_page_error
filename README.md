@@ -37,3 +37,11 @@ Things you may want to cover:
   2. On the page display click on the button "Get User Details"
   3. Then the user details will be displayed in table.
   4. On this page if refreshing the page params do not contain data in the request to the controller.
+  
+  
+ SOLUTION:
+   By default the Rails form_tag helper creates a form with method="post". To make this a GET, change your view template to look something like:
+   
+   <%= form_tag({ :action => 'get_detail' }, :method => :get) do %>
+    …
+   <% end %>
