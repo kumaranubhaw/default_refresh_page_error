@@ -45,5 +45,6 @@ Things you may want to cover:
    
    
    <%= form_tag({ :action => 'get_detail' }, :method => :get) do %>
+   
     …
    <% end %>
