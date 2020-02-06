@@ -43,9 +43,7 @@ Things you may want to cover:
  
    By default the Rails form_tag helper creates a form with method="post". To make this a GET, change your view template to look something like:
    
-   
    <%= form_tag({ :action => 'get_detail' }, :method => :get) do %>
-   
     …
    <% end %>
    
