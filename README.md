@@ -43,8 +43,8 @@ Things you may want to cover:
  
    By default the Rails form_tag helper creates a form with method="post". To make this a GET, change your view template to look something like:
    
-   <%= form_tag({ :action => 'get_detail' }, :method => :get) do %>
-    …
-   <% end %>
+  <%= form_tag({ :action => 'get_detail' }, :method => :get) do %> 
+    … 
+  <% end %>
    
    This will put the form parameters in the browser's address bar, so when refreshing, the parameters are sent as expected. I hope that helps.
